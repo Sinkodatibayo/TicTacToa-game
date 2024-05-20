@@ -1,5 +1,5 @@
 .game {
-  width: 255px;
+  width: 755px;
   text-align: center;
   font-family: system-ui;
   color: white;
@@ -8,9 +8,14 @@
 }
 
 .title {
+  display: flex;
   background: #f35;
   padding: 5px 0;
   margin: 5px 0;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }
 
 span {
@@ -18,11 +23,11 @@ span {
 }
 
 .square {
-  width: 80px;
-  height: 80px;
-  margin: 2px;
+  width: 240px;
+  height: 240px;
+  margin: 5px;
   float: left;
-  font-size: 55px;
+  font-size: 160px;
 
   background: #f35;
 }
